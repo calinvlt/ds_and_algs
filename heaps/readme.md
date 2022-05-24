@@ -26,3 +26,22 @@ A priority queue can be implemented using an ordered array with the following co
 ## **Operations**
 
 ### Insertion
+
+1. Insert the new node in the rightmost spot in the bottom level
+2. Compare new node with its parent node
+3. If the new node is greater than the parent node swap the nodes.
+4. Continue until new node is lower than the parent node
+
+Problem: finding the rightmost spot in the bottom level
+
+### Deletion
+
+We always delete the root
+
+1. Move the last node where root was
+2. Trickle the node down into it proper place
+    * Swap the node with its smaller child
+    * Continue until the node has no children larger then its value
+
+<br>
+<br>

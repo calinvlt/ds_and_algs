@@ -351,3 +351,6 @@ MigrationBackup/
 
 # unotes
 .unotes/
+
+# unotes
+.vscode/
