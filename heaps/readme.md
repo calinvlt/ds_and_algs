@@ -43,5 +43,12 @@ We always delete the root
     * Swap the node with its smaller child
     * Continue until the node has no children larger then its value
 
+**Heaps are usually implements as arrays, because arrays make it easy to find the last node.**
+**Traversing the heap**
+
+1. Left child has the index (2 \* index) + 1
+2. Right child has the index (2 \* index) + 2
+3. Parent (index - 1) / 2
+
 <br>
 <br>
