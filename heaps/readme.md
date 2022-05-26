@@ -40,7 +40,7 @@ We always delete the root
 
 1. Move the last node where root was
 2. Trickle the node down into it proper place
-    * Swap the node with its smaller child
+    * Swap the node with its greatest child
     * Continue until the node has no children larger then its value
 
 **Heaps are usually implements as arrays, because arrays make it easy to find the last node.**
